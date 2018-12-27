@@ -5,7 +5,7 @@
     color: white;
     font-size: $l-size;
     font-weight: bold;
-    margin-bottom: $xl-size;
+    margin-bottom: $l-size;
     padding: 2.4rem;
     width: 100%;
 }
@@ -29,4 +29,15 @@
     border: none;
     color: $off-white;
     padding: 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .big-button {
+
+        margin-bottom: $xl-size;
+
+
+
+    }
+
 }
